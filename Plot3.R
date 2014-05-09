@@ -16,3 +16,4 @@ points(uniDate,Sub_metering_3,col="blue",type="l")
 legend("topright",c("Sub_metering_1","Sub_metering_2","Sub_metering_3"),lty=c(1,1),lwd=c(2,2),col=c("black","red","blue"))
 dev.copy(png,file="Plot3.png")
 dev.off()
+#end
