@@ -1,4 +1,4 @@
-setwd("C:/Users/manu/Documents/coursera")
+#setwd("C:/Users/manu/Documents/coursera")
 data1<-read.csv("household_power_consumption.txt",sep=";",header=T)
 head(data1)
 data1$Date<-as.Date(data1$Date,"%d/%m/%Y")
